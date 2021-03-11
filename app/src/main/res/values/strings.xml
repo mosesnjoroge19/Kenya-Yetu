@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kenya Yetu</string>
+    <string name="maasai_mara">Maasai Mara</string>
+    <string name="mt_elgon">Mt.Elgon</string>
+    <string name="narok_county">Narok County</string>
+    <string name="wildlife">Wildlife</string>
+    <string name="hot_air_balloning">Hot-air balloning</string>
+    <string name="game_drive">Game drive</string>
+</resources>
