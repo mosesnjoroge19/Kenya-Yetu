@@ -1,81 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        tools:src="@drawable/playstore"
-        android:layout_margin="30dp"/>
+        android:src="@drawable/playstore"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/maasai_mara" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/site_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Heavenly Scenery"
-        android:textSize="45sp"
+        android:text="@string/heavenly_scenery"
+        android:textSize="30sp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:textAlignment="center"/>
 
     <Button
-        android:theme="@style/Widget.AppCompat.ActionButton"
         android:id="@+id/button"
+        android:theme="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:text="GO TO SITE"
-        android:textSize="45sp"
+        android:text="@string/go_to_site"
+        android:textSize="30sp"
         android:textAlignment="center"
         android:layout_marginTop="30dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:isScrollContainer="true"
         android:orientation="vertical"
         android:padding="20dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/maasai_mara"
-            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/narok_county"
-            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/wildlife"
-            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hot_air_balloning"
-            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/game_drive"
-            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
     </LinearLayout>
 </LinearLayout>
