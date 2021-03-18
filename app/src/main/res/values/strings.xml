@@ -6,6 +6,7 @@
     <string name="wildlife">Wildlife</string>
     <string name="hot_air_balloning">Hot-air balloning</string>
     <string name="game_drive">Game drive</string>
-    <string name="go_to_site">GO TO SITE</string>
     <string name="heavenly_scenery">Heavenly Scenery</string>
+    <string name="go_to_site">GO TO SITE</string>
+    <string name="magic_in_the_savannah">Magic In the savannah</string>
 </resources>

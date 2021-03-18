@@ -4,18 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:contentDescription="@string/maasai_mara"
+        android:id="@+id/sites"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/playstore"
-        android:layout_margin="30dp"
-        android:contentDescription="@string/maasai_mara" />
+        android:src="@drawable/maasai"
+        android:layout_margin="30dp"/>
 
     <TextView
-        android:id="@+id/site_description"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/heavenly_scenery"
@@ -25,8 +26,8 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/button"
         android:theme="@style/Widget.AppCompat.Button"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -39,48 +40,42 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:isScrollContainer="true"
         android:orientation="vertical"
         android:padding="20dp">
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/maasai_mara"
+            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/narok_county"
+            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/wildlife"
+            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hot_air_balloning"
+            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/game_drive"
+            android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="30sp" />
+           />
     </LinearLayout>
 </LinearLayout>
